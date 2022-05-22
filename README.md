@@ -18,3 +18,4 @@
 3. adguard home 可以使用 [scene5](https://www.coolapk.com/apk/com.omarea.vtools) 等工具结束进程，但结束进程后 adguard home 进程会立刻重新启动。
 4. [使用AdGaurdHome搭建无污染DNS](https://www.adgk.net/posts/135/) 传统IP DNS不可用 建议修改 `CHINADNS=tls://223.5.5.5` 使用加密DNS进行查询
 5. clash.meta 支持使用指定DNS解析代理服务器域名的dns `proxy-server-nameserver:` 例如使用 `tls://223.5.5.5:853` 避免使用 adguard home 解析
+6. 如果开机时同时启动则会导致一些问题，建议将 `/data/adb/modules/Clash_For_Magisk/service.sh` 修改为 `sleep 30`

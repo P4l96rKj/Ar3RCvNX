@@ -1,0 +1,43 @@
+mixed-port: 7890
+tproxy-port: 7894
+allow-lan: true
+geodata-mode: true
+tcp-concurrent: false
+bind-address: '*'
+mode: rule
+log-level: error
+ipv6: false
+profile:
+  store-fake-ip: false
+  store-selected: true
+external-controller: 127.0.0.1:9090
+external-ui: clash-dashboard/public
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  ipv6: false
+  # default-nameserver:
+  #  - 114.114.114.114
+  #  - 223.5.5.5
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.cn'
+  nameserver:
+    - 127.0.0.1:1055
+    # - 'https://doh.pub/dns-query'
+  # fallback:
+    # - 'https://cloudflare-dns.com/dns-query#Proxy'
+  fallback-filter:
+    geoip: false
+    geoip-code: CN
+  proxy-server-nameserver:
+    - tls://223.5.5.5:853
+tun:
+  enable: false
+  stack: system
+  dns-hijack:
+    - any:53
+  auto-route: true
+  auto-detect-interface: true

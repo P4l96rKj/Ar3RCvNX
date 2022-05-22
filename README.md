@@ -10,6 +10,8 @@
 - magisk 模块
 * [clash for magisk](https://t.me/MagiskChangeKing/126)
 * [Adguard home模块](https://www.adgk.net/posts/20/static/adguardhome_magisk%E6%A8%A1%E5%9D%97.zip)
+*************
+*[dns leak test](https://browserleaks.com/dns)
 ### 一些说明
 1. 由于 clash for magisk 一些特性，adguard home 的DNS连接会通过 clash ，如果规则国内外分流，则国外DNS可通过代理查询。
 2. 一些未知原因，adguard home 的 Bootstrap DNS 不能使用传统DNS，建议使用 `tls://223.5.5.5` ,或者上游DNS使用IP的加密DNS如 `tls://8.8.8.8`

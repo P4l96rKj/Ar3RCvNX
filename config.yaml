@@ -3,7 +3,7 @@ proxies:
 proxy-providers:
   A:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fneko.yuritele.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D7799fd062d91df3a8ca5849d8a942ec8&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=false&udp=true"
+    url: "URL"
     path: ./proxy_providers/A.yaml
     interval: 86400
     health-check:
@@ -12,7 +12,7 @@ proxy-providers:
       interval: 900
   B:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2F233yun.link%2Flink%2Fvtl9bhK8dVTESaeS%3Fsub%3D3&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=false&udp=true&exclude=x15%7CCDN%7Cx10"
+    url: "URL"
     path: ./proxy_providers/B.yaml
     interval: 86400
     health-check:

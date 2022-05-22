@@ -1,6 +1,6 @@
 
 # 简介
-在 Android 上同时使用 clash 和 adguard home 以期减少 DNS leak 并顺带过滤DNS级别广告。
+在 Android 上同时使用 clash 和 adguard home 以期减少 DNS leak 并顺带过滤DNS级别广告。  
 **使用WiFi后方法失效，不如使用私人DNS**
 ## 来源
 - 参考教程
